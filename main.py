@@ -5,7 +5,7 @@ from JSON_format import *
 welcome()  # Ввод приветствия программы
 
 
-try:
+try:    # Загрузка данных из файла
     phone_book = load()
 except:
     phone_book = {}
